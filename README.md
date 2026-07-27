@@ -77,6 +77,12 @@ Learning  : Kubernetes, Cloud, AI
 <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
 
+<br/><br/>
+
+**Testing & QA**
+<br/>
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white"/>
+
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:58A6FF&height=3&section=header"/>
@@ -144,25 +150,6 @@ Learning  : Kubernetes, Cloud, AI
 
 <br/>
 
-## 📊 GitHub Stats
-
-> ⚠️ If any card below shows as a broken image, the shared public `github-readme-stats.vercel.app` instance is likely rate-limited or paused (a known recurring issue). See the **STATS FALLBACK** note at the bottom of this file for the fix.
-
-<p align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=vasu744896&show_icons=true&theme=github_dark&hide_border=true&count_private=true&cache_seconds=86400&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vasu744896&layout=compact&theme=github_dark&hide_border=true&cache_seconds=86400&bg_color=0d1117&title_color=58A6FF"/>
-</p>
-
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=vasu744896&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58A6FF&fire=58A6FF"/>
-</p>
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vasu744896&theme=react-dark&hide_border=true&bg_color=0d1117&color=58A6FF&line=58A6FF&point=ffffff"/>
-</p>
-
-<br/>
-
 ## 🐍 Contribution Snake
 
 <!--START_SECTION:snake-->
@@ -170,16 +157,6 @@ Learning  : Kubernetes, Cloud, AI
 <!--END_SECTION:snake-->
 
 > ⚙️ To make the snake above actually animate, add the free **[Platane/snk](https://github.com/Platane/snk)** GitHub Action to your profile repo — it generates an SVG of a snake eating your contribution graph and updates automatically on a schedule. See setup notes at the bottom of this file.
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:58A6FF&height=3&section=header"/>
-
-<br/>
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=vasu744896&theme=algolia&no-frame=true&column=4&margin-w=8&margin-h=8"/>
-</p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:58A6FF&height=3&section=header"/>
 
@@ -270,28 +247,7 @@ Learning  : Kubernetes, Cloud, AI
    Replace YOUR-LINKEDIN in the badge link above with your actual profile slug.
 
 3) COLORS
-   Swap 58A6FF / 0d1117 in the capsule-render URLs, typing SVG, and stats
-   query params for any hex pair to change the whole theme's accent color
-   in one place.
-
-4) STATS FALLBACK (if the stats cards show as broken images)
-   The public github-readme-stats.vercel.app instance is shared by everyone
-   who uses the default badge, so it periodically hits rate limits or gets
-   paused entirely. This is not something wrong with this file. Fix options,
-   easiest first:
-
-   a) Wait / retry — often temporary. cache_seconds=86400 has already been
-      added above to reduce how often it re-fetches.
-
-   b) Self-host your own copy (most reliable):
-      - Fork https://github.com/anuraghazra/github-readme-stats
-      - Deploy the fork to your own free Vercel account
-      - Replace "github-readme-stats.vercel.app" in the two <img> tags above
-        with your own Vercel deployment URL, e.g.:
-        https://github-readme-stats-yourname.vercel.app/api?username=...
-
-   c) If streak-stats.demolab.com or the activity-graph breaks similarly,
-      the same self-host approach applies — both projects are open source
-      and deployable to Vercel the same way.
+   Swap 58A6FF / 0d1117 in the capsule-render URLs and typing SVG for any
+   hex pair to change the whole theme's accent color in one place.
 ==========================================================
 -->
