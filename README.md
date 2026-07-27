@@ -76,9 +76,11 @@ Learning  : Kubernetes, Cloud, AI
 
 ## 📊 GitHub Stats
 
+> ⚠️ If any card below shows as a broken image, the shared public `github-readme-stats.vercel.app` instance is likely rate-limited or paused (a known recurring issue). See the **STATS FALLBACK** note at the bottom of this file for the fix.
+
 <p align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=vasu744896&show_icons=true&theme=github_dark&hide_border=true&count_private=true"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vasu744896&layout=compact&theme=github_dark&hide_border=true"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=vasu744896&show_icons=true&theme=github_dark&hide_border=true&count_private=true&cache_seconds=86400"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vasu744896&layout=compact&theme=github_dark&hide_border=true&cache_seconds=86400"/>
 </p>
 
 <p align="center">
@@ -180,5 +182,25 @@ Learning  : Kubernetes, Cloud, AI
 3) COLORS
    Swap 58A6FF / 0d1117 in the capsule-render URLs and typing SVG for any hex
    pair to change the whole theme's accent color in one place.
+
+4) STATS FALLBACK (if the stats cards show as broken images)
+   The public github-readme-stats.vercel.app instance is shared by everyone
+   who uses the default badge, so it periodically hits rate limits or gets
+   paused entirely. This is not something wrong with this file. Fix options,
+   easiest first:
+
+   a) Wait / retry — often temporary. cache_seconds=86400 has already been
+      added above to reduce how often it re-fetches.
+
+   b) Self-host your own copy (most reliable):
+      - Fork https://github.com/anuraghazra/github-readme-stats
+      - Deploy the fork to your own free Vercel account
+      - Replace "github-readme-stats.vercel.app" in the two <img> tags above
+        with your own Vercel deployment URL, e.g.:
+        https://github-readme-stats-yourname.vercel.app/api?username=...
+
+   c) If streak-stats.demolab.com or the activity-graph breaks similarly,
+      the same self-host approach applies — both projects are open source
+      and deployable to Vercel the same way.
 ==========================================================
 -->
