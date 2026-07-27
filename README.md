@@ -44,17 +44,11 @@ Scalable APIs · Computer Vision · LLM integrations
 
 <div align="center">
 
-<!-- 🧱 BREAKOUT — paddle smashing through my commit history -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vasu744896/vasu744896/output/breakout-contribution-graph-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/vasu744896/vasu744896/output/breakout-contribution-graph.svg" alt="breakout"/>
-</picture>
+<!-- 🧱 BREAKOUT — paddle smashing through my commit history (always dark) -->
+<img src="https://raw.githubusercontent.com/vasu744896/vasu744896/output/breakout-contribution-graph-dark.svg" alt="breakout"/>
 
-<!-- 👾 PAC-MAN — chasing ghosts across my contribution grid -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vasu744896/vasu744896/output/pacman-contribution-graph-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/vasu744896/vasu744896/output/pacman-contribution-graph.svg" alt="pacman"/>
-</picture>
+<!-- 👾 PAC-MAN — chasing ghosts across my contribution grid (always dark) -->
+<img src="https://raw.githubusercontent.com/vasu744896/vasu744896/output/pacman-contribution-graph-dark.svg" alt="pacman"/>
 
 <sub>Every brick and pellet is a real commit — regenerated daily by GitHub Actions.</sub>
 
