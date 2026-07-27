@@ -1,0 +1,55 @@
+# ══════════════════════════════════════════════════════════
+#  🎮 GAME ZONE WORKFLOW
+#  Save this file in your profile repo (vasu744896/vasu744896) at:
+#     .github/workflows/games.yml
+#  Then: repo Settings → Actions → General →
+#     Workflow permissions → "Read and write permissions" ✅
+#  Run it once manually from the Actions tab.
+# ══════════════════════════════════════════════════════════
+
+name: 🎮 Generate Game Animations
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # regenerate daily at midnight UTC
+  workflow_dispatch:        # allow manual run
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  # ─── 🐍 SNAKE ───
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: vasu744896
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # ─── 👾 PAC-MAN ───
+  pacman:
+    runs-on: ubuntu-latest
+    needs: snake            # run after snake so both land on `output` branch
+    steps:
+      - uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: vasu744896
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
