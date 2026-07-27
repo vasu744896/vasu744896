@@ -41,6 +41,11 @@ Scalable APIs · Computer Vision · LLM integrations
 
 <div align="center">
 
+<!-- ─── ANIMATED FOOTER ─── -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3500&pause=1000&color=8B949E&center=true&vCenter=true&width=600&lines=Building+scalable+software%2C+one+commit+at+a+time." alt="footer quote"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:004e92,100:000428&height=120&section=footer&animation=fadeIn" width="100%" alt="footer"/>
+
 <!-- ─── SKILLS · one clean line per layer ─── -->
 <img src="https://skillicons.dev/icons?i=python,fastapi,nodejs,react,nextjs,ts,tailwind&theme=dark" alt="core"/>
 <br/>
@@ -113,9 +118,6 @@ Scalable APIs · Computer Vision · LLM integrations
 
 <br/><br/>
 
-<!-- ─── ANIMATED FOOTER ─── -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3500&pause=1000&color=8B949E&center=true&vCenter=true&width=600&lines=Building+scalable+software%2C+one+commit+at+a+time." alt="footer quote"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:004e92,100:000428&height=120&section=footer&animation=fadeIn" width="100%" alt="footer"/>
 
 </div>
