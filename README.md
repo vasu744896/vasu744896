@@ -39,17 +39,40 @@ vasanth@dev:~$ echo $FOCUS
 Scalable APIs · Computer Vision · LLM integrations
 ```
 
+<!-- ─── 🕹️ CONTRIBUTION ARCADE · generated daily from real commits ─── -->
+## 🕹️ Contribution Arcade
+
 <div align="center">
 
-<!-- ─── ANIMATED FOOTER ─── -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3500&pause=1000&color=8B949E&center=true&vCenter=true&width=600&lines=Building+scalable+software%2C+one+commit+at+a+time." alt="footer quote"/>
+<!-- 🧱 BREAKOUT — paddle smashing through my commit history -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vasu744896/vasu744896/output/breakout-contribution-graph-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/vasu744896/vasu744896/output/breakout-contribution-graph.svg" alt="breakout"/>
+</picture>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:004e92,100:000428&height=120&section=footer&animation=fadeIn" width="100%" alt="footer"/>
+<!-- 👾 PAC-MAN — chasing ghosts across my contribution grid -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vasu744896/vasu744896/output/pacman-contribution-graph-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/vasu744896/vasu744896/output/pacman-contribution-graph.svg" alt="pacman"/>
+</picture>
+
+<sub>Every brick and pellet is a real commit — regenerated daily by GitHub Actions.</sub>
+
+</div>
+
+<br/>
+
+<div align="center">
 
 <!-- ─── SKILLS · one clean line per layer ─── -->
 <img src="https://skillicons.dev/icons?i=python,fastapi,nodejs,react,nextjs,ts,tailwind&theme=dark" alt="core"/>
 <br/>
 <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,docker,linux,nginx,git,tensorflow,opencv&theme=dark" alt="infra"/>
+<br/><br/>
+<!-- Playwright isn't on skillicons.dev, so a matching dark badge instead -->
+<img src="https://img.shields.io/badge/Playwright-0d1117?style=for-the-badge&logo=playwright&logoColor=2EAD33" alt="Playwright"/>
+<img src="https://img.shields.io/badge/OpenCV-0d1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8" alt="OpenCV"/>
+<img src="https://img.shields.io/badge/YOLOv8-0d1117?style=for-the-badge&logoColor=00FFFF" alt="YOLOv8"/>
 
 </div>
 
@@ -85,29 +108,6 @@ Scalable APIs · Computer Vision · LLM integrations
 
 <br/>
 
-<!-- ─── 🕹️ CONTRIBUTION ARCADE · generated daily from real commits ─── -->
-## 🕹️ Contribution Arcade
-
-<div align="center">
-
-<!-- 🧱 BREAKOUT — paddle smashing through my commit history -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vasu744896/vasu744896/output/breakout-contribution-graph-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/vasu744896/vasu744896/output/breakout-contribution-graph.svg" alt="breakout"/>
-</picture>
-
-<!-- 👾 PAC-MAN — chasing ghosts across my contribution grid -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vasu744896/vasu744896/output/pacman-contribution-graph-dark.svg"/>
-  <img src="https://raw.githubusercontent.com/vasu744896/vasu744896/output/pacman-contribution-graph.svg" alt="pacman"/>
-</picture>
-
-<sub>Every brick and pellet is a real commit — regenerated daily by GitHub Actions.</sub>
-
-</div>
-
-<br/>
-
 <!-- ─── CONNECT ─── -->
 <div align="center">
 
@@ -118,6 +118,9 @@ Scalable APIs · Computer Vision · LLM integrations
 
 <br/><br/>
 
+<!-- ─── ANIMATED FOOTER ─── -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3500&pause=1000&color=8B949E&center=true&vCenter=true&width=600&lines=Building+scalable+software%2C+one+commit+at+a+time." alt="footer quote"/>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:004e92,100:000428&height=120&section=footer&animation=fadeIn" width="100%" alt="footer"/>
 
 </div>
