@@ -76,8 +76,28 @@ Scalable APIs · Computer Vision · LLM integrations
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=vasu744896&theme=github-compact&hide_border=true&bg_color=0d1117&color=8b949e&line=58a6ff&point=f78166&area=true&area_color=1f6feb" width="96%" alt="graph"/>
 
-<!-- ─── CONTRIBUTION SNAKE (needs Platane/snk workflow — comment in repo) ─── -->
-<img src="https://raw.githubusercontent.com/vasu744896/vasu744896/output/github-contribution-grid-snake-dark.svg" alt="snake"/>
+</div>
+
+<br/>
+
+<!-- ─── 🕹️ CONTRIBUTION ARCADE · generated daily from real commits ─── -->
+## 🕹️ Contribution Arcade
+
+<div align="center">
+
+<!-- 🧱 BREAKOUT — paddle smashing through my commit history -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vasu744896/vasu744896/output/breakout-contribution-graph-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/vasu744896/vasu744896/output/breakout-contribution-graph.svg" alt="breakout"/>
+</picture>
+
+<!-- 👾 PAC-MAN — chasing ghosts across my contribution grid -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vasu744896/vasu744896/output/pacman-contribution-graph-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/vasu744896/vasu744896/output/pacman-contribution-graph.svg" alt="pacman"/>
+</picture>
+
+<sub>Every brick and pellet is a real commit — regenerated daily by GitHub Actions.</sub>
 
 </div>
 

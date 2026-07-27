@@ -1,18 +1,20 @@
 # ══════════════════════════════════════════════════════════
-#  🎮 GAME ZONE WORKFLOW
-#  Save this file in your profile repo (vasu744896/vasu744896) at:
-#     .github/workflows/games.yml
-#  Then: repo Settings → Actions → General →
-#     Workflow permissions → "Read and write permissions" ✅
-#  Run it once manually from the Actions tab.
+#  🎮 GAME ZONE WORKFLOW (FIXED)
+#  Path in your profile repo:  .github/workflows/games.yml
+#
+#  Setup checklist:
+#  1. Repo Settings → Actions → General → Workflow permissions
+#     → select "Read and write permissions" → Save
+#  2. Actions tab → "🎮 Generate Game Animations" → Run workflow
+#  3. Wait ~1-2 min, then hard-refresh your profile (Ctrl+Shift+R)
 # ══════════════════════════════════════════════════════════
 
 name: 🎮 Generate Game Animations
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # regenerate daily at midnight UTC
-  workflow_dispatch:        # allow manual run
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
     branches: [main]
 
@@ -20,36 +22,31 @@ permissions:
   contents: write
 
 jobs:
-  # ─── 🐍 SNAKE ───
-  snake:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - uses: Platane/snk@v3
+      # ─── 🐍 Snake → writes into dist/ ───
+      - name: Generate snake
+        uses: Platane/snk@v3
         with:
           github_user_name: vasu744896
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-          keep_history: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  # ─── 👾 PAC-MAN ───
-  pacman:
-    runs-on: ubuntu-latest
-    needs: snake            # run after snake so both land on `output` branch
-    steps:
-      - uses: abozanona/pacman-contribution-graph@main
+      # ─── 👾 Pac-Man + 🧱 Breakout → both write into dist/ ───
+      - name: Generate arcade games
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: vasu744896
-      - uses: crazy-max/ghaction-github-pages@v4
+          games: 'pacman,breakout'
+
+      # ─── 🚀 Push everything in dist/ to the output branch ONCE ───
+      - name: Push SVGs to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
-          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
