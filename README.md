@@ -6,7 +6,7 @@
 <div align="center">
 
 <!-- ─── ANIMATED BANNER ─── -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000428,100:004e92&height=250&text=Vasanth%20Kumar&fontSize=60&fontColor=e6f1ff&animation=twinkling&desc=Full%20Stack%20Developer%20·%20Python%20Backend%20Engineer%20·%20AI%20Enthusiast&descSize=17&descAlignY=72&stroke=58a6ff&strokeWidth=1" width="100%" alt="banner"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000428,100:004e92&height=250&text=VasanthKumar&fontSize=60&fontColor=e6f1ff&animation=twinkling&desc=Full%20Stack%20Developer%20·%20Python%20Backend%20Engineer%20·%20AI%20Enthusiast&descSize=17&descAlignY=72&stroke=58a6ff&strokeWidth=1" width="100%" alt="banner"/>
 
 <!-- ─── TYPING ANIMATION ─── -->
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2500&pause=600&color=58A6FF&center=true&vCenter=true&multiline=false&width=700&lines=%3E_+Engineering+scalable+backends+with+Python;%3E_+Teaching+machines+to+see+with+YOLOv8;%3E_+Shipping+production+systems+in+Docker;%3E_+Clean+code.+Fast+APIs.+Real+impact." alt="typing"/>
