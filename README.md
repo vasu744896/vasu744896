@@ -1,5 +1,5 @@
 <!-- ══════════════════════════════════════════════════════════ -->
-<!--            VASANTH KUMAR · PREMIUM GITHUB PROFILE          -->
+<!--            VASANTHKUMAR · PREMIUM GITHUB PROFILE          -->
 <!--        Minimal · Animated · Dark · Senior-level polish      -->
 <!-- ══════════════════════════════════════════════════════════ -->
 
